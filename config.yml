@@ -1,0 +1,131 @@
+---
+baseURL: https://syl-taylor.github.io/tech-insights/
+canonifyURLs: true
+languageCode: en-us
+title: Syl Taylor
+theme: piko
+paginate: "9"
+copyright: Syl Taylor
+enableRobotsTXT: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+outputs:
+  home:
+  - HTML
+  - JSON
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+params:
+  env: production
+  author: Syl Taylor
+  description: Tech insights about Compute & ML
+  math: false
+  showVisitedLinks: true
+  label:
+    title: "__Tech Insights_"
+    text: "Tech Insights"
+    lightNavIcon: website/processor.png
+    darkNavIcon: website/processor.png
+    iconHeight: "45"
+    iconWidth: "45"
+  comments: true
+  mainSections:
+  - arm64
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowRelated: true
+  disableAnchoredHeadings: false
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homepage:
+    # Hero Section
+    disableHeroSection: false
+    heroTitle: Syl Taylor
+    heroDescription: Focused on Compute Performance & MLOps
+    heroCTAPrimaryText: Arm64 on Cloud
+    heroCTAPrimaryUrl: "arm64"
+    heroCTASecondaryText: Contact Me
+    heroCTASecondaryUrl: "https://uk.linkedin.com/in/syl-taylor"
+    heroBackgroundImage: "website/asm.jpg"
+    # Arm64 Cloud Section
+    disableBlogSection: false
+    blogTitle: Latest Posts on Arm64
+    # blogDescription: TBA
+    seeMoreText: More Posts
+    # About Section
+    disableAboutSection: true
+    # aboutTitle: TBA
+    # aboutDescription: TBA
+    # aboutContent: TBA
+  # Footer
+  hideFooter: true
+  # Search Options (https://fusejs.io/)
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: "0"
+    distance: "1000"
+    threshold: "0.4"
+    minMatchCharLength: "0"
+    keys:
+    - title
+    - permalink
+    - summary
+    - content
+  plugins:
+    css:
+    - link: plugins/css/pico.min.css
+    js:
+    - link: plugins/js/feather.min.js
+menus:
+  main: # Main Menu
+  - name: Arm64
+    title: "Arm64 on Cloud"
+    pre: pen-tool
+    url: "/arm64"
+    weight: "20"
+  - name: Search
+    title: Search
+    pre: search
+    url: "/search"
+    weight: "30"
+  - name: Github
+    title: Github
+    pre: github
+    url: https://github.com/syl-taylor
+    weight: "40"
+  search: # Search page's quick links
+  - name: Categories
+    title: Categories
+    url: "/categories"
+    weight: "10"
+  - name: Tags
+    title: Tags
+    url: "/tags"
+    weight: "20"
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
