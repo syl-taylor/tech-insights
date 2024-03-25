@@ -53,7 +53,7 @@ params:
     # Hero Section
     disableHeroSection: false
     heroTitle: Syl Taylor
-    heroDescription: Focused on Compute Performance & MLOps
+    heroDescription: Focused on Compute Performance & Machine Learning
     heroCTAPrimaryText: Arm64 on Cloud
     heroCTAPrimaryUrl: "arm64"
     heroCTASecondaryText: Contact Me
