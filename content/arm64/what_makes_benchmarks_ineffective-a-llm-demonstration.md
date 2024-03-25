@@ -4,8 +4,8 @@ author: "Syl Taylor"
 title: "Why Benchmarks Offer Little Value?*"
 date: "2024-03-25"
 description: "Why are benchmarks often ineffective? An investigation using LLM attention blocks on AWS Graviton (CPU)"
-tags: ["arm64", "cloud", "performance"]
-categories: ["arm64", "mlops"]
+tags: ["arm64", "cloud", "performance", "machine learning"]
+categories: ["arm64", "machine learning"]
 hideMeta: true
 searchHidden: false
 ShowBreadCrumbs: false
