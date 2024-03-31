@@ -1,4 +1,5 @@
 https://syl-taylor.github.io/tech-insights/tags/arm64/
+https://syl-taylor.github.io/tech-insights/tags/machine-learning/
 https://syl-taylor.github.io/tech-insights/arm64/making_the_move_to_aws_graviton/
 https://syl-taylor.github.io/tech-insights/arm64/multi_arch_container_builds/
 https://syl-taylor.github.io/tech-insights/arm64/what_makes_benchmarks_ineffective-a-llm-demonstration/
