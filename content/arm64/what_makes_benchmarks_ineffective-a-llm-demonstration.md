@@ -1,9 +1,9 @@
 
 ---
 author: "Syl Taylor"
-title: "Why Synthethic Benchmarks Offer Little Value?*"
+title: "Why Synthetic Benchmarks Offer Little Value?*"
 date: "2024-03-25"
-description: "Why are synthethic benchmarks often ineffective? An investigation using LLM attention blocks on AWS Graviton (CPU)"
+description: "Why are synthetic benchmarks often ineffective? An investigation using LLM attention blocks on AWS Graviton (CPU)"
 tags: ["arm64", "cloud", "performance", "machine learning"]
 categories: ["arm64", "machine learning"]
 hideMeta: true
